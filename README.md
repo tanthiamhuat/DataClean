@@ -22,6 +22,6 @@ perform an analysis on the data set, and output a tidy data set.
 ** Note that it requires the [reshape2 package]
 (http://cran.r-project.org/web/packages/reshape2/index.html), which can be downloaded from CRAN.
 
-**The output of the R script is a tidy data set, [tidy.csv](tidy.csv).**
+**The output of the R script is a tidy data set, [tidy.csv](tidy.csv) and [tidy.txt](tidy.txt).**
 
 You can read more about the data and the analysis in the [code book](CodeBook.md).
