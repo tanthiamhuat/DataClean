@@ -1,6 +1,6 @@
 ## Code Book
 
-This code book will describe the data used in this project, as well as the processing required to create the resulting tidy data set.
+This code book describes the data used in this project, as well as the processing steps required to create the resulting tidy data set.
 
 ### Overview
 
