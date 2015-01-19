@@ -1,10 +1,9 @@
-## STEP 0: load required packages
+## STEP 1: First we need to load all the required packages
 
 # load the reshape2 package (will be used in STEP 5)
 library(reshape2)
 
-
-## STEP 1: Merges the training and the test sets to create one data set
+## STEP 2: Merges the training and the test sets to create one data set
 
 # read data into data frames
 subject_train <- read.table("subject_train.txt")
@@ -33,7 +32,7 @@ test <- cbind(subject_test, y_test, X_test)
 combined <- rbind(train, test)
 
 
-## STEP 2: Extracts only the measurements on the mean and standard
+## STEP 3: Extracts only the measurements on the mean and standard
 ## deviation for each measurement.
 
 # determine which columns contain "mean()" or "std()"
@@ -47,8 +46,6 @@ meanstdcols[1:2] <- TRUE
 combined <- combined[, meanstdcols]
 
 
-## STEP 3: Uses descriptive activity names to name the activities
-## in the data set.
 ## STEP 4: Appropriately labels the data set with descriptive
 ## activity names. 
 
